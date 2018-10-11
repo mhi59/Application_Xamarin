@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ApplicationLED"
+             x:Class="ApplicationLED.MainPage">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal" Margin="5">
+            <Button Clicked="SpeakBtn" Text="Parlez!" BackgroundColor="Blue"/>
+            <Button Clicked="ConnectBtn" Text="Connecter" BackgroundColor="Green"/>
+        </StackLayout>
+        <Label x:Name="ConfirmConnexion" IsVisible="False" FontAttributes="Bold" FontSize="Medium"/>
+    </StackLayout>
+
+</ContentPage>
